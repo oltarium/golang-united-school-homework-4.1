@@ -1,6 +1,10 @@
 package reverse_string
 
+import "strings"
+
 func ReverseString(input string) (output string) {
-	// solution goes here
+	for _, s := range strings.Split(input, "") {
+		println(s)
+	}
 	return output
 }
